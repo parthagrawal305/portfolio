@@ -144,7 +144,7 @@
 
                     <div class="page-3-content">
                         <h1 class="page3txt">My Projects Highlights</h1>
-                        <div class="section-3-cta-btn">
+                        <div class="section-3-cta-btn" id="section3CTABtn">
                             <b class="explore-works">See Resume</b>
                             <img class="icon" alt="" src="./public/icon3.svg" />
                         </div>
@@ -481,7 +481,7 @@
             }
 
             var section3CTABtn =
-                document.getElementsByClassName("section-3-cta-btn");
+                document.getElementById("section3CTABtn");
             if (section3CTABtn) {
                 section3CTABtn.addEventListener("click", function () {
                     window.open(
