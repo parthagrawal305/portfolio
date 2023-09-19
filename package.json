@@ -10,5 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "@vercel/og": "^0.5.14"
   }
 }
