@@ -10,7 +10,7 @@
             This is Parth Agarwal.
             I'm a front end Web developer and a UI/UX designer."
         />
-        <link rel="icon" href="./favicon.ico">
+        <link rel="icon" href="./favicon.ico" />
         <link rel="stylesheet" href="./global.css" />
         <link rel="stylesheet" href="./index.css" />
         <link
@@ -482,9 +482,11 @@
 
             var section3CTABtn =
                 document.getElementsByClassName("section-3-cta-btn");
-            for (var i = 0; i < section3CTABtn.length; i++) {
-                section3CTABtn[i].addEventListener("click", function () {
-                    window.open("./resume.pdf");
+            if (section3CTABtn) {
+                section3CTABtn.addEventListener("click", function () {
+                    window.open(
+                        "https://drive.google.com/file/d/1coy_s0zOFNCcv2jipbs7937J_3R_W6-i/view?usp=sharing"
+                    );
                 });
             }
 
