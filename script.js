@@ -1,7 +1,7 @@
 var logoImage = document.getElementById("logoImage");
 if (logoImage) {
     logoImage.addEventListener("click", function () {
-        window.location.href = "https://parth-agrawal.vercel.app";
+        window.location.href = "https://parthag.vercel.app";
     });
 }
 
@@ -74,7 +74,7 @@ var section2CTABtn = document.getElementById("section2CTABtn");
 if (section2CTABtn) {
     section2CTABtn.addEventListener("click", function () {
         window.open(
-            "https://wa.me/917666400397?text=Hey%20Parth%2C%0AI%20saw%20your%20website."
+            "https://wa.me/917666400397?text=Hey%20Parth%2C%0AI%20saw%20your%20Portfolio%20website."
         );
     });
 }
@@ -83,7 +83,7 @@ var section3CTABtn = document.getElementById("section3CTABtn");
 if (section3CTABtn) {
     section3CTABtn.addEventListener("click", function () {
         window.open(
-            "https://drive.google.com/file/d/1coy_s0zOFNCcv2jipbs7937J_3R_W6-i/view?usp=sharing"
+            "https://drive.google.com/file/d/1ZRkGTf6jMbaU40ZjWc25kDwtdBbBvz6U/view?usp=sharing"
         );
     });
 }
@@ -92,7 +92,7 @@ var projectViewBtn = document.getElementById("projectViewBtn");
 if (projectViewBtn) {
     projectViewBtn.addEventListener("click", function () {
         window.open(
-            "https://www.figma.com/file/NC1NE7dI3HganQD1Y5X9dd/Brandifi?type=design&node-id=404%3A868&mode=design&t=MOrGiiCvjXKpafhM-1"
+            "https://brandifi.vercel.app/"
         );
     });
 }
@@ -143,7 +143,7 @@ if (section5Phone) {
 var linkedinIcon = document.getElementById("linkedinIcon");
 if (linkedinIcon) {
     linkedinIcon.addEventListener("click", function () {
-        window.open("https://www.linkedin.com/in/parthagrawal660/");
+        window.open("https://www.linkedin.com/in/parth-ag/");
     });
 }
 
@@ -179,6 +179,6 @@ if (dribbbleIcon) {
 var instagramIcon = document.getElementById("instagramIcon");
 if (instagramIcon) {
     instagramIcon.addEventListener("click", function () {
-        window.open("https://www.instagram.com/parthagrawal660/");
+        window.open("https://www.instagram.com/parthag660/");
     });
 }
